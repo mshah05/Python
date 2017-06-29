@@ -8,9 +8,9 @@ Blackjack is a game often played in casinos around the world. It is played betwe
 
 **General game flow:**
         1. Two cards are dealt to each player at the start of the game. The value of each player's hand is evaluated. If neither player's hand value is 21, the game continues. 
-		2. Human player takes their turn. 
-		3. Dealer plays their turn. 
-		4. A final decision is made based on the value of both player's hands. 
+	2. Human player takes their turn. 
+	3. Dealer plays their turn. 
+	4. A final decision is made based on the value of both player's hands. 
 
 ### B. Notes:
 Below are some cautionary notes to keep in mind: 
