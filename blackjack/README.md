@@ -6,11 +6,11 @@
 ### A. Game Summary and Outline
 Blackjack is a game often played in casinos around the world. It is played between only 2 players - yourself and the dealer at the table. The goal of the game is to have a hand value as close to or equal to 21 without going over. The value of each player's (yourself and the dealer) hand is evaluated using the value of the individual cards in the player's hand. Each card counts as their face value, except for Ace which can count as 1 or 11, and K, Q, and J are counted as 10. If a player scores 21, they win the game. Otherwise, the player with the higer hand value, that's still below 21, wins. Players can tie if both of their hand values are equal or bust if their individual hand value goes over 21.
 
-**General game flow:**
-        1. Two cards are dealt to each player at the start of the game. The value of each player's hand is evaluated. If neither player's hand value is 21, the game continues. 
-	2. Human player takes their turn. 
-	3. Dealer plays their turn. 
-	4. A final decision is made based on the value of both player's hands. 
+  **General game flow:**  
+          1. Two cards are dealt to each player at the start of the game. The value of each player's hand is evaluated. If neither player's hand value is 21, the game continues.  
+	  2. Human player takes their turn.  
+	  3. Dealer plays their turn.   
+	  4. A final decision is made based on the value of both player's hands.  
 
 ### B. Notes:
 Below are some cautionary notes to keep in mind: 
