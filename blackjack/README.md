@@ -18,16 +18,16 @@ Below are some cautionary notes to keep in mind:
 2. The human player is the person running the program so it is not automated. 
 3. The dealer is automated.
 4. If the human player's first 2 cards equal 21, they automatically win the game and the dealer does not get a turn. 
-		_This feature can be removed if desired. Please see comments in the source file inside the play_game() method._
+		  _This feature can be removed if desired. Please see comments in the source file inside the play_game() method._  
 5. Human player's first 2 cards, dealt at the beginning of the game, are shown on screen, dealer's are not. 
 6. When the dealer plays, if he hits, the new card added as well as his hand, are shown on screen.
 7. During the human player's turn if the next card dealt to them puts their hands' value at 21, they win and the game is over and the dealer does not play. 
-		_If this is not desired, and the dealer should still get their turn, then only two lines of code in the source file         need to be commented to remove this feature. Please see comments in the play_game() method._
+		  _If this is not desired, and the dealer should still get their turn, then only two lines of code in the source file         need to be commented to remove this feature. Please see comments in the play_game() method._  
 8. The dealer still gets their turn even if the human player's hand is busted.
 9. If the total value of either player's hand is less then or equal to 10 before an Ace is dealt, the Ace will count as 
 	11, otherwise it will count as 1.
 10. Both player's hands is evaluated after the first 2 cards are dealt and a decision is made either declaring a winner or continuing with the game. This means the dealer's cards are also evaluated after the first 2 cards are dealt and if they get 21, they win.
-		_This feature can be removed if desired. Please see comments in source file inside the play_game() method._
+		  _This feature can be removed if desired. Please see comments in source file inside the play_game() method._  
 11. If both players tie, no one wins the game.
 
 ### C. Instructions:
