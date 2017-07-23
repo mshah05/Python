@@ -26,7 +26,8 @@ auth = twitter.oauth.OAuth(OAUTH_TOKEN, OAUTH_TOKEN_SECRET, CONSUMER_KEY, CONSUM
 tw = twitter.Twitter(auth=auth)
 
 #SEARCH
-gmrPycon = tw.search.tweets(q="@cocacola", count=25) 
+gmrPycon = tw.search.tweets(q=tags_to_search_tweets_for, count=25) 
+#Example for above line of code: gmrPycon = tw.search.tweets(q="@cocacola", count=25) 
 for status in gmrPycon['statuses']:
 	text = removeUnicode(status['text']) 
 	print 'Text: ', text #text
